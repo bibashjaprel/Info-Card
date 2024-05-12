@@ -1,0 +1,59 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.xml-card {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: monospace;
+  position: relative;
+}
+
+.xml-tag {
+  color: #800080; 
+}
+
+
+.xml-value {
+  color: #008000;
+}
+
+.social-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  margin-top: 10px;
+  transition: background-color .3s;
+}
+
+.portfolio-button:hover {
+  background-color: whitesmoke;
+  color: #007bff;
+}
